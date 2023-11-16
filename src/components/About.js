@@ -4,12 +4,12 @@ import MyPhoto from '../me-about.jpg'
 
 function About() {
   return (
-    <div className='about-wraper'>
+    <div className='about-wraper' id='about-wraper'>
       <section className="py-3 py-md-5">
         <div className="container mb-4 mb-md-5">
           <div className="row justify-content-md-center">
-            <div className="col-12 col-md-10 col-xxl-8">
-              <img className='img-fluid rounded shadow profile-picture' src={MyPhoto} alt="MyPhoto..." />
+            <div className="col-md-6 offset-md-3">
+              <img className='img-fluid rounded-circle shadow profile-picture' src={MyPhoto} alt="MyPhoto..." />
             </div>
           </div>
         </div>

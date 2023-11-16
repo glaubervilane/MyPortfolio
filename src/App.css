@@ -130,7 +130,8 @@ nav ul li {
 }
 
 .profile-picture {
-  width: 50.25rem;
+  width: 20.25rem;
+  border-radius: 50%;
 }
 
 @media(max-width: 768px) {
