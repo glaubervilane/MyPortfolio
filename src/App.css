@@ -90,13 +90,14 @@ nav ul li {
 }
 
 /*Header main offer button*/
-.btn-main-offer {
+.btn-main-offer {  
   border: 1px solid var(--primary-red);
+  background-color: var(--primary-red);
   text-transform: uppercase;
   text-decoration: none;
   border-radius: 5px;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: var(--primary-red);
+  color: var(--primary-white);
   font-weight: 800;
   margin-top: 1rem;
   cursor: pointer;
@@ -104,8 +105,8 @@ nav ul li {
 
 .btn-main-offer:hover { 
   text-decoration: none;
-  background-color: var(--primary-hover-red);
-  color: var(--primary-white);
+  background-color: var(--primary-hover-white);
+  color: var(--primary-red);
   transition: .2s ease-in-out;
 }
 
@@ -116,8 +117,20 @@ nav ul li {
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 5;
+  z-index: 1;
   opacity: 0.5;
+}
+
+/**********************About styles************************/
+
+.about-wraper {
+  position: relative;
+  background-color: var(--primary-white);
+  z-index: 1;
+}
+
+.profile-picture {
+  width: 50.25rem;
 }
 
 @media(max-width: 768px) {

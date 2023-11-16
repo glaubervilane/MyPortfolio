@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import ParticlesComponent from './components/Particles';
+import About from './components/About'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <ParticlesComponent />
       <Navbar />
       <Header />
+      <About/>
     </>
   );
 }
