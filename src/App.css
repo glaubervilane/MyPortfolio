@@ -4,6 +4,7 @@
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+  --primary-light-purple: #eeddf5;
 }
 
 body {
@@ -132,6 +133,14 @@ nav ul li {
 .profile-picture {
   width: 20.25rem;
   border-radius: 50%;
+}
+
+/**********************Projects styles************************/
+
+.projects-wrapper {
+  position: relative;
+  background-color: var(--primary-light-purple);
+  z-index: 1;
 }
 
 @media(max-width: 768px) {
