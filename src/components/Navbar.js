@@ -1,5 +1,5 @@
 import React from 'react'
-import MyLogo from '../myLogo.png'
+import MyLogo from '../images/myLogo.png'
 import '../App.css';
 // React fontawesome imports
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

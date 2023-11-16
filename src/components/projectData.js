@@ -1,8 +1,8 @@
-import TravelBuddy from '../travel-buddy.jpg';
-import PhotoLab from '../photolab.jpg';
-import ConvertMoney from '../convert-money.jpg';
-import JungleRails from '../jungle-rails.jpg';
-import Tweeter from '../tweeter.jpg';
+import TravelBuddy from '../images/travel-buddy.jpg';
+import PhotoLab from '../images/photolab.jpg';
+import ConvertMoney from '../images/convert-money.jpg';
+import JungleRails from '../images/jungle-rails.jpg';
+import Tweeter from '../images/tweeter.jpg';
 
 const projects = [
   {
