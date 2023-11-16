@@ -6,6 +6,7 @@ import Header from './components/Header';
 import ParticlesComponent from './components/Particles';
 import About from './components/About'
 import Projects from './components/Projects'
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <About/>
       <Projects/>
+      <Experience/>
     </>
   );
 }

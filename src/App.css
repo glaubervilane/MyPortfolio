@@ -143,6 +143,92 @@ nav ul li {
   z-index: 1;
 }
 
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/**********************Experience styles************************/
+.experience-wrapper {
+  position: relative;
+  background-color: var(--primary-white);
+  z-index: 1;
+}
+
+.timeline {
+  list-style-type: none;
+  padding: 0;
+  position: relative;
+}
+
+.timeline-item,
+.timeline-item-reverse {
+  margin-bottom: 50px;
+  position: relative;
+  opacity: 1;
+  transform: translateY(0); 
+}
+
+.timeline-badge {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--primary-purple);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timeline-panel {
+  width: 45%;
+  float: left;
+  border-radius: 8px;
+  background-color: var(--primary-white);
+  padding: 20px;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.timeline-item-reverse .timeline-panel {
+  float: right;
+}
+
+.timeline-heading h4 {
+  margin-top: 0;
+}
+
+.timeline-body p {
+  margin-bottom: 0;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--primary-purple);
+  margin-left: -1px;
+  z-index: 1; /* Ensure the line appears between the panels */
+}
+
+/* Animation */
+.timeline-item, .timeline-item-reverse {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.timeline-item.animate, .timeline-item-reverse.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 @media(max-width: 768px) {
   .particles-container {
     display: none;
