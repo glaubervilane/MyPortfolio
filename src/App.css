@@ -17,6 +17,11 @@ body {
   width: 5.25rem;
 }
 
+#nav {
+  position: fixed;
+  width: 100%;
+}
+
 /**Menu Links styles**/
 nav {
   z-index: 5;
@@ -128,6 +133,7 @@ nav ul li {
   position: relative;
   background-color: var(--primary-white);
   z-index: 1;
+  padding-top: 70px;
 }
 
 .profile-picture {
@@ -141,6 +147,7 @@ nav ul li {
   position: relative;
   background-color: var(--primary-light-purple);
   z-index: 1;
+  padding-top: 70px;
 }
 
 .card {
@@ -156,6 +163,7 @@ nav ul li {
   position: relative;
   background-color: var(--primary-white);
   z-index: 1;
+  padding-top: 70px;
 }
 
 .timeline {
@@ -214,7 +222,7 @@ nav ul li {
   width: 2px;
   background-color: var(--primary-purple);
   margin-left: -1px;
-  z-index: 1; /* Ensure the line appears between the panels */
+  z-index: 1;
 }
 
 /* Animation */
@@ -227,6 +235,75 @@ nav ul li {
 .timeline-item.animate, .timeline-item-reverse.animate {
   opacity: 1;
   transform: translateY(0);
+}
+
+/**********************Contact styles************************/
+
+.contact-wrapper {
+  position: relative;
+  background-color: var(--primary-light-purple);
+  z-index: 1;
+  padding: 80px 0;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #495057;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.btn-contact {
+  background-color: var(--primary-purple);
+  color: var(--primary-white);
+}
+
+/**********************Footer styles************************/
+
+.footer-wrapper {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 30px 0;
+}
+
+.footer-title {
+  color: #ffffff;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.social-icons li {
+  margin-right: 15px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #6c757d;
+  text-align: center;
+  font-size: 14px;
 }
 
 @media(max-width: 768px) {
