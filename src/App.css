@@ -93,12 +93,20 @@ nav ul li {
 .btn-main-offer {
   border: 1px solid var(--primary-red);
   text-transform: uppercase;
+  text-decoration: none;
   border-radius: 5px;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-red);
   font-weight: 800;
   margin-top: 1rem;
   cursor: pointer;
+}
+
+.btn-main-offer:hover { 
+  text-decoration: none;
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
 }
 
 /*Particles*/
@@ -110,4 +118,22 @@ nav ul li {
   height: 100%;
   z-index: 5;
   opacity: 0.5;
+}
+
+@media(max-width: 768px) {
+  .particles-container {
+    display: none;
+  }
+
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
+
+  .navbar-brand {
+    max-width: 7rem;
+  }
 }
