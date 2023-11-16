@@ -1,7 +1,9 @@
 :root {
   --primary-white: #fff;
-  --primary-orange: #BB9BC9;
-  --primary-dark: rgba(255,255,255,0);
+  --primary-purple: #BB9BC9;
+  --primary-dark: rgba(255, 255, 255, 0);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
 }
 
 body {
@@ -15,6 +17,10 @@ body {
 }
 
 /**Menu Links styles**/
+nav {
+  z-index: 5;
+}
+
 nav a.nav-link {
   font-size: .8rem;
   letter-spacing: 0.6px;
@@ -25,8 +31,8 @@ nav ul li {
   text-transform: uppercase;
 }
 
-.navbar-nav > li > a {  
-  margin-right: 0.75rem; 
+.navbar-nav>li>a {
+  margin-right: 0.75rem;
   margin-left: 0.75rem;
   color: var(--primary-white) !important;
   border-top: 0.1875rem solid var(--primary-dark);
@@ -38,10 +44,70 @@ nav ul li {
   height: 6rem !important;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus { 
-  border-top: 0.1875rem solid var(--primary-orange);
+.navbar-nav>li>a.active,
+.navbar-nav>li>a.active:focus {
+  border-top: 0.1875rem solid var(--primary-purple);
 }
 
-.navbar-nav > li > a:hover {
-  border-top: 0.1875rem solid var(--primary-orange);
+.navbar-nav>li>a:hover {
+  border-top: 0.1875rem solid var(--primary-purple);
+}
+
+/**********************Header styles************************/
+
+.header-wraper {
+  position: relative;
+  background: url(background-image.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 10rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  z-index: 5;
+}
+
+.main-info h1 {
+  color: var(--primary-purple);
+  text-transform: uppercase;
+}
+
+/*Typed Text*/
+.typed-text {
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+/*Header main offer button*/
+.btn-main-offer {
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-red);
+  font-weight: 800;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+/*Particles*/
+.particles-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  opacity: 0.5;
 }
