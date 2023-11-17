@@ -237,17 +237,41 @@ nav ul li {
   transform: translateY(0);
 }
 
+/**********************Academic styles************************/
+
+.academic-wrapper {
+  position: relative;
+  background-color: var(--primary-light-purple);
+  
+  z-index: 1;
+  padding: 60px 0;
+}
+
+.course-title {
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.institution {
+  font-weight: bold;
+  color: #343a40;
+}
+
+.year {
+  color: #6c757d;
+}
+
 /**********************Contact styles************************/
 
 .contact-wrapper {
   position: relative;
-  background-color: var(--primary-light-purple);
+  background-color: var(--primary-white);
   z-index: 1;
   padding: 80px 0;
 }
 
 .contact-form {
-  background-color: #ffffff;
+  background-color: var(--primary-light-purple);
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
