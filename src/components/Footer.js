@@ -9,9 +9,9 @@ function Footer() {
           <div className="col-md-6">
             <h4 className="footer-title">Connect with Me</h4>
             <ul className="social-icons">
-              <li><a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
-              <li><a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
-              <li><a href="#" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/glaubervilane/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/glaubervilane" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a></li>
+              <li><a href="https://glaubermarques.writing.io/" target="_blank" rel="noopener noreferrer"><i className="fab fa-blogger"></i></a></li>
             </ul>
           </div>
           <div className="col-md-6">

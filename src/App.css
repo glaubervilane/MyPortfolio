@@ -274,9 +274,11 @@ nav ul li {
 /**********************Footer styles************************/
 
 .footer-wrapper {
+  position: relative;
   background-color: #343a40;
   color: #ffffff;
   padding: 30px 0;
+  z-index: 1;
 }
 
 .footer-title {
@@ -287,6 +289,7 @@ nav ul li {
   list-style: none;
   padding: 0;
   display: flex;
+  cursor: pointer;
 }
 
 .social-icons li {
