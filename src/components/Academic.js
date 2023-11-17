@@ -7,7 +7,7 @@ function Academic() {
 
   return (
     <section className="academic-wrapper py-5" id='academic-wrapper'>
-      <div className="container">
+      <div className="container" id='academic-container'>
         <h2 className="display-4 fw-bold text-center mb-5">Academic Background</h2>
         <div className="row">
           <div className="col-md-8 offset-md-2">

@@ -166,6 +166,10 @@ nav ul li {
   padding-top: 70px;
 }
 
+#academic-container {
+  padding-top: 70px;
+}
+
 .timeline {
   list-style-type: none;
   padding: 0;
@@ -241,10 +245,9 @@ nav ul li {
 
 .academic-wrapper {
   position: relative;
-  background-color: var(--primary-light-purple);
-  
+  background-color: var(--primary-light-purple);  
   z-index: 1;
-  padding: 60px 0;
+  padding: 70px 0;
 }
 
 .course-title {
